@@ -17,7 +17,7 @@ RUN set -ex; \
     apt-get install -yqq \
     
       alsamixergui \
-      alsa \
+      
       alsaplayer-oss \
       alsa-utils \
       alsa-tools \
