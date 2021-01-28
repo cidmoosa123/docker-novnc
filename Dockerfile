@@ -13,6 +13,21 @@ RUN set -ex; \
       supervisor \
       x11vnc \
       xterm \
+      alsa \
+      alsa-base \
+      alsa-firmware-loaders \
+      alsamixergui \
+      alsaplayer-oss \
+      alsa-utils \
+      alsa-tools \
+      alsa-tools-gui \
+      pulseaudio \
+      nano \
+      mplayer \
+      python \
+      python3-pip \
+      screen \
+      pavucontrol \
       xvfb
 
 # Setup demo environment variables
