@@ -14,8 +14,7 @@ RUN set -ex; \
       x11vnc \
       xterm \
       alsa \
-      alsa-base \
-      alsa-firmware-loaders \
+      
       alsamixergui \
       alsaplayer-oss \
       alsa-utils \
