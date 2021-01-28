@@ -12,10 +12,12 @@ RUN set -ex; \
       socat \
       supervisor \
       x11vnc \
-      xterm \
-      alsa \
-      
+      xterm && \
+    apt-get update -y && \
+    apt-get install -yqq \
+    
       alsamixergui \
+      alsa \
       alsaplayer-oss \
       alsa-utils \
       alsa-tools \
